@@ -1,0 +1,44 @@
+{
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.renderWhitespace": "boundary" ,// 在边界处渲染空格
+    "editor.rulers": [150], // 在150个字符处显示一条竖线
+    "window.zoomLevel": 0,
+    "editor.insertSpaces": false,
+    "explorer.autoReveal": true,
+    "files.associations": {
+        "*.wpy": "vue",
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript"
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "react",
+            "autoFix": true
+        },
+    ],
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "editor.accessibilitySupport": "off",
+    "files.autoSave": "onFocusChange",
+    "explorer.confirmDelete": false,
+    // "workbench.colorTheme": "Material Theme High Contrast",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "explorer.confirmDragAndDrop": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
